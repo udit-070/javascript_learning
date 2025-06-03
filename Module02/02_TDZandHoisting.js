@@ -1,4 +1,5 @@
-// Thia is called Variable Hoisting
+//hoisitng means memory creation. I fwe create memory for variable, it is called variable hoisting and when we create memory for functions it is called function hoisting.
+// This is called Variable Hoisting
 
 console.log('name is', name);
 
@@ -25,3 +26,8 @@ const name = 'tom';
 console.log('name is ', name);
 
 // When a variable is getting declared using const, then it has to be initialised immediately.So, it cannot be left uninitialised. 
+
+// Temporal Dead Zone
+// It is an area where we cannot access a variable until it is initialised
+// TDZ is defined for a specific variable. if we try to acccess a variable in TDZ, it will show reference error
+
